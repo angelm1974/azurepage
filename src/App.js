@@ -22,7 +22,7 @@ function App() {
           error
         );
       });
-  }, []);
+  }, [server_endpoint]);
 
   return (
     <div className="App">
